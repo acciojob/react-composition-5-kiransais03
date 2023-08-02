@@ -2,8 +2,8 @@
 import React,{useState} from "react";
 
 const Tabs = ({tabs,setTabs}) => {
-    let [content1,setContent1] = useState("");
-    let [content2,setContent2] = useState("");
+    let [content1,setContent1] = useState("Content for Tab 1");
+    let [content2,setContent2] = useState("Content for Tab A");
   return (
     <div>
         {/* Do not remove the main div */}
